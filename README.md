@@ -5,7 +5,7 @@ The machine used has VAAPI media stack enabled. Take note of the display refresh
 Do a check to ensure the machine playing the H264 video is not CPU bottlenecked before using the setup to benchmark latencies. This can be done with the help of a handheld stopwatch. (Use hardware accelerated decoders for playbacks whenever possible.)
 - Start the handheld stopwatch and play the H264 video simultanously. Your actions are not perfect, therefore, there is a reasonably small time gap (not noticeable to the naked eye) between the playing of H264 file and the handheld stopwatch.
 - The H264 video duration is 60 seconds. Try to accurately stop the handheld stopwatch at the 60 second mark of the H264 video. The time difference on the handheld stopwatch should be within a reasonable number (e.g. human reaction <100ms) near 60 second mark.
-- Repeat several times to weed out reaction time variations.
+- Repeat several times to weed out reaction time variations and ensure the results are somewhat consistent.
 - Now you are good to go!
 
 > If after several tries and the time on the handheld stopwatch is *way* different, there is some synchronization issue. Possibly, the H264 video is not playing according to *true* time sync.
