@@ -4,7 +4,7 @@
 The machine used has VAAPI media stack enabled. Take note of the display refresh rate. Ideal to set display refresh rate to 120Hz so to synchronize with the framerate.
 Do a check to ensure the machine playing the H264 video is not CPU bottlenecked before using the setup to benchmark latencies. This can be done with the help of a handheld stopwatch. (Use hardware accelerated decoders for playbacks whenever possible.)
 - Start the handheld stopwatch and play the H264 video simultanously. Your actions are not perfect, therefore, there is a reasonably small time gap (not noticeable to the naked eye) between the playing of H264 file and the handheld stopwatch.
-- The H264 video duration is 60 seconds. Stop the handheld stopwatch at the 60 second mark of the H264 video. The time difference on the handheld stopwatch should be within a reasonable number (e.g. human reaction <100ms) near 60 second mark.
+- The H264 video duration is 60 seconds. Try to accurately stop the handheld stopwatch at the 60 second mark of the H264 video. The time difference on the handheld stopwatch should be within a reasonable number (e.g. human reaction <100ms) near 60 second mark.
 - Repeat several times to weed out reaction time variations.
 - Now you are good to go!
 
